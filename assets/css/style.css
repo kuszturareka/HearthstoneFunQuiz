@@ -1,13 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
 
 
-.logo {
+#logo {
     font-family: "Asul", sans-serif;
     font-size: 70px;
     padding-right: 50px;
-    color: #EDA115
+    color: #EDA115;
 }
 
 .btn {
     background-color: #EDA115
 }
+
+body {
+    
+    font-family: "Asul", sans-serif;
+    color: #EDA115;
+   
+}
+
+footer {
+    background-color: #000000;
+    opacity: 40%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-networks {
+    text-align: left;
+}
+.social-networks li {
+    display: inline;
+    text-align: left;
+}
+.social-networks i {
+    font-size: 100%;
+    color:#EDA115;
+    text-align: left;
+}
+
+.battletag {
+    text-align: right;
+    font-size: 100%;}
