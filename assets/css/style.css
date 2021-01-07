@@ -19,15 +19,22 @@ body {
     font-family: "Asul", sans-serif;
     color: #ffffff;
     background-image: url(https://wallpaperaccess.com/full/973179.jpg);
-    background-size: cover ;
+    background-size: cover;
    
 }
 
+#landing-page {
+    
+    
+}
 #game-container {
     
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
-    
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 footer {
