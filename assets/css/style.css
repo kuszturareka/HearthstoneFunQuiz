@@ -5,11 +5,11 @@
     font-family: "Asul", sans-serif;
     font-size: 70px;
     padding-right: 50px;
-    color: #54053b;
+    color: #730851;
 }
 
 .btn {
-    background-color: #54053b;
+    background-color: #730851;
     opacity: 90%;
     color: #ffffff;
 }
@@ -20,19 +20,16 @@ body {
     color: #ffffff;
     background-image: url(https://wallpaperaccess.com/full/973179.jpg);
     background-size: cover;
+    
    
 }
 
-#landing-page {
-    
-    
-}
 #game-container {
     
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 60px;
 }
