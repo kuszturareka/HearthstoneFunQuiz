@@ -21,25 +21,25 @@ body {
 
 footer {
     background-color: #000000;
-    opacity: 40%;
+    opacity: 50%;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 .social-networks {
-    text-align: left;
+    text-align: center;
+    list-style-type: none;
 }
 .social-networks li {
-    display: inline;
-    text-align: left;
+    
+    text-align: center;
+    display: inline-block;
 }
 .social-networks i {
     font-size: 100%;
     color:#EDA115;
     text-align: left;
+    display: inline-block;
+   
 }
-
-.battletag {
-    text-align: right;
-    font-size: 100%;}
