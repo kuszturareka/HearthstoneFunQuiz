@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
 
-
 #logo {
     font-family: "Asul", sans-serif;
     font-size: 70px;
@@ -18,10 +17,8 @@ body {
     
     font-family: "Asul", sans-serif;
     color: #ffffff;
-    background-image: url(https://wallpaperaccess.com/full/973179.jpg);
+    background: url(https://wallpaperaccess.com/full/973179.jpg) no-repeat center fixed;
     background-size: cover;
-    
-   
 }
 
 #game-container {
@@ -34,6 +31,8 @@ body {
     margin-bottom: 60px;
 }
 
+
+
 footer {
     background-color: #54053b;
     opacity: 90%;
@@ -43,12 +42,12 @@ footer {
 }
 
 .social-networks {
-    text-align: center;
+    text-align: left;
     list-style-type: none;
 }
 .social-networks li {
     
-    text-align: center;
+    text-align: left;
     display: inline-block;
     margin-top: 10px;
 }
@@ -58,3 +57,22 @@ footer {
     text-align: left;
    
 }
+
+/* https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/ */
+@media screen and (max-width: 600px) {
+    #logo {
+        font-size: 20px;
+        display: table;
+        vertical-align: middle;
+        text-align: center;
+    }
+ #game-container p {
+     font-size: 50%;
+ }
+ footer {
+     text-align: center;
+ }
+}
+
+
+@media only screen and (min-width: 768px)
