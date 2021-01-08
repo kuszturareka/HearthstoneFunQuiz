@@ -5,7 +5,6 @@
     font-size: 70px;
     padding-right: 50px;
     color: #730851;
-   
     vertical-align: middle;
     text-align: center;
     
@@ -30,8 +29,8 @@ body {
     
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 50px;
     margin-bottom: 60px;
 }
@@ -67,18 +66,11 @@ footer {
    
 }
 
-.radio {
-    font-size: 2.25rem;
-    color: var(--color)
-}
 
-/* https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/ */
+
 @media screen and (max-width: 600px) {
     #logo {
-        font-size: 20px;
-        display: table;
-        vertical-align: middle;
-        text-align: center;
+        font-size: 40px;
     }
  #game-container p {
      font-size: 50%;
@@ -89,8 +81,5 @@ footer {
 
 @media only screen and (max-width: 768px) {
     #logo {
-        display: table;
-        vertical-align: middle;
-        text-align: center;
     }
 }
