@@ -5,6 +5,10 @@
     font-size: 70px;
     padding-right: 50px;
     color: #730851;
+   
+    vertical-align: middle;
+    text-align: center;
+    
 }
 
 .btn {
@@ -19,6 +23,7 @@ body {
     color: #ffffff;
     background: url(https://wallpaperaccess.com/full/973179.jpg) no-repeat center fixed;
     background-size: cover;
+    text-align: center;
 }
 
 #game-container {
@@ -31,6 +36,10 @@ body {
     margin-bottom: 60px;
 }
 
+.col-12 text-center {
+    white-space: nowrap;
+    
+}
 
 
 footer {
@@ -58,6 +67,11 @@ footer {
    
 }
 
+.radio {
+    font-size: 2.25rem;
+    color: var(--color)
+}
+
 /* https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/ */
 @media screen and (max-width: 600px) {
     #logo {
@@ -69,10 +83,14 @@ footer {
  #game-container p {
      font-size: 50%;
  }
- footer {
-     text-align: center;
- }
+
 }
 
 
-@media only screen and (min-width: 768px)
+@media only screen and (max-width: 768px) {
+    #logo {
+        display: table;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
